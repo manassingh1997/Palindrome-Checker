@@ -1,0 +1,74 @@
+body{
+    background: #000025;
+    color: white;
+  }
+  * {
+    box-sizing: 
+    margin: 0;
+    padding: 0;box-sizing:border-box;
+  }
+  .container{
+    width: 100%;
+    min-height:100vh; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1{
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+     font-weight: 900;
+     font-size: 2.5rem;
+     padding-bottom: 15px;
+  }
+  .full {
+    width: min(100vw,450px);
+    min-height: 100px;
+    background: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow:0 6px 6px #0000aa;
+  }
+  .full label{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    font-family: Brush Script MT, Lucida Handwriting;
+    font-size: 1.75rem; 
+  }
+  .full input{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #4455cc;
+    min-width: 225px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .full button{
+    background: #4455cc;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    border: none;
+    margin-left: 15px;
+  }
+  .full p{
+    min-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+  }
+  p{
+    width: min(100vw,450px);
+    min-height: 90px;
+    text-align: justify;
+  }
+  
